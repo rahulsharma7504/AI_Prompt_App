@@ -54,7 +54,6 @@ root/
 
 Create `.env` file in Backend folder:
 
-Create `.env` file in Backend folder:
 
 
 PORT=5000
