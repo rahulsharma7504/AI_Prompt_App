@@ -1,0 +1,106 @@
+/* Container */
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(135deg, #0f172a, #1e293b);
+  color: #fff;
+  font-family: "Inter", sans-serif;
+}
+
+/* Header */
+.header {
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Buttons container */
+.buttonGroup {
+  display: flex;
+  gap: 10px;
+  padding: 10px 20px;
+  flex-wrap: wrap;
+}
+
+/* Buttons */
+.button {
+  padding: 10px 18px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  font-weight: 500;
+  transition: 0.3s ease;
+}
+
+/* Run button */
+.runBtn {
+  background: linear-gradient(135deg, #22c55e, #16a34a);
+  color: white;
+}
+
+.runBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #22c55e;
+}
+
+/* Save button */
+.saveBtn {
+  background: linear-gradient(135deg, #3b82f6, #2563eb);
+  color: white;
+}
+
+.saveBtn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 0 10px #3b82f6;
+}
+
+/* React Flow wrapper */
+.flowWrapper {
+  flex: 1;
+}
+
+/* Node styling */
+.nodeBox {
+  background: #1e293b;
+  border: 1px solid #334155;
+  padding: 12px;
+  border-radius: 10px;
+  min-width: 180px;
+  color: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Input field */
+.input {
+  margin-top: 8px;
+  width: 100%;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  outline: none;
+  background: #0f172a;
+  color: white;
+}
+
+/* Result box */
+.result {
+  margin-top: 8px;
+  font-size: 14px;
+  color: #cbd5f5;
+  word-wrap: break-word;
+}
+
+/* Mobile responsive */
+@media (max-width: 768px) {
+  .header {
+    font-size: 16px;
+  }
+
+  .button {
+    width: 100%;
+  }
+}
