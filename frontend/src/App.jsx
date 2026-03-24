@@ -10,7 +10,7 @@ function App() {
 
   const handleRun = async () => {
     try {
-      const res = await axios.post("http://localhost:5000/api/ask-ai", {
+      const res = await axios.post("https://ai-prompt-app-o5c7.onrender.com/api/ask-ai", {
         prompt: inputText,
       });
       
@@ -23,7 +23,7 @@ function App() {
 
   const handleSave = async () => {
     try {
-      await axios.post("http://localhost:5000/api/save", {
+      await axios.post("https://ai-prompt-app-o5c7.onrender.com/api/save", {
         prompt: inputText,
         response: result,
       });
