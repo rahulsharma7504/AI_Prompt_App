@@ -33,21 +33,26 @@ A full-stack MERN application that allows users to input a prompt, generate an A
 
 ## ⚙️ Project Structure
 
+## ⚙️ Project Structure
+
+```bash
 root/
 │
 ├── Backend/
-│ ├── routes/
-│ ├── models/
-│ ├── server.js
-│ └── .env
+│   ├── routes/
+│   ├── models/
+│   ├── server.js
+│   └── .env
 │
 ├── Frontend/
-│ ├── src/
-│ ├── App.js
-│ └── App.module.css
+│   ├── src/
+│   ├── App.js
+│   └── App.module.css
 │
 └── README.md
- ---
+```
+
+---
 
 ## 🔑 Environment Variables
 
