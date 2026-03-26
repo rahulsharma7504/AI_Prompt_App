@@ -67,7 +67,7 @@ MONGO_URI=your_mongodb_connection_string
 
 ### 1. Clone Repository
 
-git clone https://github.com/your-username/mern-ai-flow.git
+git clone https://github.com/rahulsharma7504/AI_Prompt_App.git
 
 cd mern-ai-flow
 
