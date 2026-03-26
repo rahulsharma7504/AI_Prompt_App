@@ -47,8 +47,7 @@ root/
 │ └── App.module.css
 │
 └── README.md
-
----
+ ---
 
 ## 🔑 Environment Variables
 
@@ -123,7 +122,7 @@ npm start
 
 ## 🎥 Demo
 
-(Attach Loom / YouTube link here)
+[Project Link](https://mernaipromptapp.vercel.app/)
 
 ---
 
